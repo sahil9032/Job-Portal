@@ -1,0 +1,75 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>JobPortal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="~/assets/css/styles.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" integrity="sha256-3sPp8BkKUE7QyPSl6VfBByBroQbKxKG7tsusY2mhbVY=" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+
+<body>
+<nav class="navbar navbar-light navbar-expand-md navigation-clean">
+    <div class="container">
+        <a class="navbar-brand" href="#">Job Portal</a>
+        <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+            <span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse"
+             id="navcol-1">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" asp-action="Index">Home</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" asp-action="ListJobs">Applied Job</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" asp-controller="Home" asp-action="Privacy">Privacy Policy</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" asp-controller="Home" asp-action="Contactus">Contact us</a>
+                </li>
+                <li class="nav-item">
+                    <form class="form-inline" method="post" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new {area = ""})">
+                        <button type="submit" class="nav-link btn btn-link text-dark">Logout(@User.Identity.Name)</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+@RenderBody()
+<div class="footer-basic">
+    <footer>
+        <ul class="list-inline">
+            <li class="list-inline-item">
+                <a asp-action="Index">Home</a>
+            </li>
+            <li class="list-inline-item">
+                <a class="nav-link" asp-controller="Home" asp-action="Privacy">Privacy Policy</a>
+            </li>
+            <li class="list-inline-item">
+                <a class="nav-link" asp-controller="Home" asp-action="Contactus">Contact us</a>
+            </li>
+        </ul>
+        <p class="copyright">Job Portal © 2020</p>
+    </footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+<script src="~/assets/js/script.min.js"></script>
+</body>
+
+</html>

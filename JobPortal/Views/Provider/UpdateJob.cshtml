@@ -1,0 +1,39 @@
+﻿@model Jobs
+
+@{
+    ViewData["title"] = "Update Job";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <form method="post">
+                <h4 class="text-center">Update Job</h4>
+                <input asp-for="JobId" type="hidden"/>
+                <input asp-for="Active" type="hidden"/>
+                <input asp-for="ProviderId" type="hidden"/>
+                <div class="form-group">
+                    <label asp-for="Company"></label>
+                    <input asp-for="Company" class="form-control"/>
+                    <span asp-validation-for="Company" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Location"></label>
+                    <input asp-for="Location" class="form-control"/>
+                    <span asp-validation-for="Location" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Salary"></label>
+                    <input asp-for="Salary" class="form-control"/>
+                    <span asp-validation-for="Salary" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="ToolsAndTechnologies"></label>
+                    <input asp-for="ToolsAndTechnologies" class="form-control"/>
+                    <span asp-validation-for="ToolsAndTechnologies" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-outline-primary btn-block">Update</button>
+            </form>
+        </div>
+    </div>
+</div>

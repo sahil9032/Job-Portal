@@ -1,0 +1,29 @@
+﻿@model JobPortal.ViewModel.ApplyJobViewModel
+@{
+    ViewData["title"] = "Apply for job";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <form method="post">
+                <h4 class="text-center">Apply Job.</h4>
+                <hr/>
+                <div class="form-group">
+                    <input asp-for="JobId" class="form-control" type="hidden"/>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ResumeLink"></label>
+                    <input asp-for="ResumeLink" class="form-control"/>
+                    <span asp-validation-for="ResumeLink" class="text-danger"></span>
+                </div>
+                <br/>
+                <div class="alert-dark">
+                    *By clicking on apply you provide your information like email address to the employer. Once submitted you will be not able to change link.
+                </div>
+                <br/>
+                <button type="submit" class="btn btn-primary btn-block">Apply Job</button>
+            </form>
+        </div>
+    </div>
+</div>

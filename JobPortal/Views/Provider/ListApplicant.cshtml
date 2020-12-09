@@ -1,0 +1,46 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@model IEnumerable<JobPortal.ViewModel.ListApplicantViewModel>
+@{
+    ViewData["title"] = "List";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-10 mx-auto mb-4">
+            <div class="section-title text-center ">
+                <h3 class="top-c-sep">People interested in job.</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-10 mx-auto">
+            <div class="career-search mb-60">
+                <div class="filter-result">
+                    @if (Model.Count() == 0)
+                    {
+                        <h6 class="text-center alert-info">No users yet</h6>
+                    }
+                    else
+                    {
+                        foreach (var item in Model)
+                        {
+                            <div class="job-box d-md-flex align-items-center justify-content-between mb-30">
+                                <div class="job-left my-4 d-md-flex align-items-center flex-wrap">
+                                    <div class="job-content">
+                                        <h5 class="text-center text-md-left">@item.Email</h5>
+                                    </div>
+                                </div>
+                                <div class="job-right my-4 flex-shrink-0">
+                                    <a href="@item.ResumeLink" class="btn d-block w-100 d-sm-inline-block btn-light">Open Resume</a>
+                                </div>
+                            </div>
+                        }   
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

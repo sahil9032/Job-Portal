@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Bhuva Sahil\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Bhuva Sahil\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_JobPortal.1586480716.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Bhuva Sahil\AppData\Roaming\JetBrains\Rider2020.3\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Bhuva Sahil\AppData\Roaming\JetBrains\Rider2020.3\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Bhuva Sahil\AppData\Roaming\JetBrains\Rider2020.3\javascript\extLibs\http_ajax.aspnetcdn.com_ajax_jquery.validate_1.17.0_jquery.validate.js" t="IncludeRecursive" />
+    <e p="C:\Users\Bhuva Sahil\AppData\Roaming\JetBrains\Rider2020.3\javascript\extLibs\http_ajax.aspnetcdn.com_ajax_jquery.validation.unobtrusive_3.2.9_jquery.validate.unobtrusive.js" t="IncludeRecursive" />
+    <e p="C:\Users\Bhuva Sahil\AppData\Roaming\JetBrains\Rider2020.3\javascript\extLibs\http_cdnjs.cloudflare.com_ajax_libs_material-design-iconic-font_2.2.0_css_material-design-iconic-font.css" t="IncludeRecursive" />
+    <e p="C:\Users\Bhuva Sahil\source\repos\JobPortal" t="IncludeFlat">
+      <e p="JobPortal" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="Areas" t="Include">
+          <e p="Identity" t="Include">
+            <e p="IdentityHostingStartup.cs" t="Include" />
+            <e p="Pages" t="Include">
+              <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+              <e p="_ViewImports.cshtml" t="Include" />
+              <e p="_ViewStart.cshtml" t="Include" />
+              <e p="Account" t="Include">
+                <e p="_ViewImports.cshtml" t="Include" />
+                <e p="AccessDenied.cshtml" t="Include" />
+                <e p="AccessDenied.cshtml.cs" t="Include" />
+                <e p="ForgotPassword.cshtml" t="Include" />
+                <e p="ForgotPassword.cshtml.cs" t="Include" />
+                <e p="ForgotPasswordConfirmation.cshtml" t="Include" />
+                <e p="ForgotPasswordConfirmation.cshtml.cs" t="Include" />
+                <e p="Lockout.cshtml" t="Include" />
+                <e p="Lockout.cshtml.cs" t="Include" />
+                <e p="Login.cshtml" t="Include" />
+                <e p="Login.cshtml.cs" t="Include" />
+                <e p="Register.cshtml" t="Include" />
+                <e p="Register.cshtml.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="AdminController.cs" t="Include" />
+          <e p="ErrorController.cs" t="Include" />
+          <e p="HomeController.cs" t="Include" />
+          <e p="ProviderController.cs" t="Include" />
+          <e p="SeekerController.cs" t="Include" />
+        </e>
+        <e p="Data" t="Include">
+          <e p="ApplicationDbContext.cs" t="Include" />
+          <e p="Migrations" t="Include">
+            <e p="00000000000000_CreateIdentitySchema.cs" t="Include" />
+            <e p="00000000000000_CreateIdentitySchema.Designer.cs" t="Include" />
+            <e p="20201117061418_AddModels.cs" t="Include" />
+            <e p="20201117061418_AddModels.Designer.cs" t="Include" />
+            <e p="20201117115857_Update.cs" t="Include" />
+            <e p="20201117115857_Update.Designer.cs" t="Include" />
+            <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
+          </e>
+        </e>
+        <e p="JobPortal.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="Applicant.cs" t="Include" />
+          <e p="ErrorViewModel.cs" t="Include" />
+          <e p="Jobs.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="JobPortal.AssemblyInfo.cs" t="Include" />
+              <e p="JobPortal.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+          <e p="serviceDependencies.json" t="Include" />
+          <e p="serviceDependencies.local.json" t="Include" />
+        </e>
+        <e p="ScaffoldingReadMe.txt" t="Include" />
+        <e p="Services" t="Include">
+          <e p="ApplicantRepository.cs" t="Include" />
+          <e p="AuthMessageSenderOptions.cs" t="Include" />
+          <e p="IApplicantRepository.cs" t="Include" />
+          <e p="IJobRepository.cs" t="Include" />
+          <e p="IUserRepository.cs" t="Include" />
+          <e p="JobRepository.cs" t="Include" />
+          <e p="UserRepository.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="ViewModel" t="Include">
+          <e p="AddJobViewModel.cs" t="Include" />
+          <e p="ApplyJobViewModel.cs" t="Include" />
+          <e p="ListApplicantViewModel.cs" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Admin" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="DeleteJob.cshtml" t="Include" />
+            <e p="DeleteUser.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="ListJobs.cshtml" t="Include" />
+            <e p="ListUsers.cshtml" t="Include" />
+          </e>
+          <e p="Home" t="Include">
+            <e p="Aboutus.cshtml" t="Include" />
+            <e p="Contactus.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="Privacy.cshtml" t="Include" />
+          </e>
+          <e p="Provider" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="AddJob.cshtml" t="Include" />
+            <e p="CloseApplications.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="ListApplicant.cshtml" t="Include" />
+            <e p="UpdateJob.cshtml" t="Include" />
+          </e>
+          <e p="Seeker" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="Apply.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="ListJobs.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_LoginPartial.cshtml" t="Include" />
+            <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="assets" t="Include">
+            <e p="css" t="Include">
+              <e p="styles.min.css" t="Include" />
+            </e>
+            <e p="img" t="Include">
+              <e p="1.jpg" t="Include" />
+              <e p="2.jpg" t="Include" />
+              <e p="3.jpg" t="Include" />
+              <e p="meeting.jpg" t="Include" />
+              <e p="star-sky.jpg" t="Include" />
+            </e>
+            <e p="js" t="Include">
+              <e p="script.min.js" t="Include" />
+            </e>
+          </e>
+          <e p="css" t="Include">
+            <e p="site.css" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+          <e p="js" t="Include">
+            <e p="site.js" t="Include" />
+          </e>
+          <e p="lib" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p="dist" t="Include">
+                <e p="css" t="Include">
+                  <e p="bootstrap-grid.css" t="Include" />
+                  <e p="bootstrap-grid.css.map" t="Include" />
+                  <e p="bootstrap-grid.min.css" t="Include" />
+                  <e p="bootstrap-grid.min.css.map" t="Include" />
+                  <e p="bootstrap-reboot.css" t="Include" />
+                  <e p="bootstrap-reboot.css.map" t="Include" />
+                  <e p="bootstrap-reboot.min.css" t="Include" />
+                  <e p="bootstrap-reboot.min.css.map" t="Include" />
+                  <e p="bootstrap.css" t="Include" />
+                  <e p="bootstrap.css.map" t="Include" />
+                  <e p="bootstrap.min.css" t="Include" />
+                  <e p="bootstrap.min.css.map" t="Include" />
+                </e>
+                <e p="js" t="Include">
+                  <e p="bootstrap.bundle.js" t="Include" />
+                  <e p="bootstrap.bundle.js.map" t="Include" />
+                  <e p="bootstrap.bundle.min.js" t="Include" />
+                  <e p="bootstrap.bundle.min.js.map" t="Include" />
+                  <e p="bootstrap.js" t="Include" />
+                  <e p="bootstrap.js.map" t="Include" />
+                  <e p="bootstrap.min.js" t="Include" />
+                  <e p="bootstrap.min.js.map" t="Include" />
+                </e>
+              </e>
+              <e p="LICENSE" t="Include" />
+            </e>
+            <e p="jquery" t="Include">
+              <e p="dist" t="Include">
+                <e p="jquery.js" t="Include" />
+                <e p="jquery.min.js" t="Include" />
+                <e p="jquery.min.map" t="Include" />
+              </e>
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+            <e p="jquery-validation" t="Include">
+              <e p="dist" t="Include">
+                <e p="additional-methods.js" t="Include" />
+                <e p="additional-methods.min.js" t="Include" />
+                <e p="jquery.validate.js" t="Include" />
+                <e p="jquery.validate.min.js" t="Include" />
+              </e>
+              <e p="LICENSE.md" t="Include" />
+            </e>
+            <e p="jquery-validation-unobtrusive" t="Include">
+              <e p="jquery.validate.unobtrusive.js" t="Include" />
+              <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="JobPortal.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
